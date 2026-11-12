@@ -4,6 +4,8 @@
 	"account_id": "5f71982b62808e9ad56021b0737d80d0",
 	"main": "src/index.ts",
 	"compatibility_date": "2026-10-01",
+	// Logos and favicon for the pages in src/pages.ts.
+	"assets": { "directory": "./public" },
 	"routes": [
 		{ "pattern": "connect.twinfield.solvebeam.com", "custom_domain": true }
 	],
