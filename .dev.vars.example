@@ -1,0 +1,12 @@
+# Copy to .dev.vars for `npm run dev`. In production these are Worker secrets (`wrangler secret put`).
+
+# The certified Twinfield client. Its redirect URL at Twinfield must be <origin>/ (with the trailing slash).
+TWINFIELD_CLIENT_ID=
+TWINFIELD_CLIENT_SECRET=
+
+# Comma-separated `id:key` pairs; the first one encrypts, all of them decrypt.
+# A key is 32 random bytes in base64: `openssl rand -base64 32`
+ENCRYPTION_KEYS=k1:
+
+# Where the Worker is reachable during `npm run dev`; Twinfield redirects to its root.
+PUBLIC_URL=http://localhost:8787

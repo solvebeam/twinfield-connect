@@ -1,0 +1,20 @@
+{
+  "name": "twinfield-connect",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OAuth proxy for Twinfield on connect.twinfield.solvebeam.com",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261110.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.160.1"
+  }
+}
